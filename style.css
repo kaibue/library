@@ -1,6 +1,7 @@
 body {
     display: flex;
     justify-content: center;
+    font-family: 'Roboto', sans-serif;
     
 }
 
@@ -13,16 +14,37 @@ body {
     justify-content: center;
 }
 
+#btnAddBook {
+    background-color: cadetblue;
+    border-radius: 10px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
 .containerHeading{
     font-size: 30px;
     font-weight: bold;
 }
 
+.heading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
 .singleBook {
     border: solid;
-    border-color: aqua;
+    border-color: darkblue;
     padding: 10px;
     width: 30rem;
     margin: 5px;
+    border-radius: 10px;
+    border-width: 3px;
+    font-size: 20px;
+}
+
+#dialog1 {
     border-radius: 10px;
 }

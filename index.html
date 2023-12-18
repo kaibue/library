@@ -6,11 +6,41 @@
     <title>Document</title>
     <script src="app.js" defer></script>    
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
 </head>
 <body>
     <div id="container">
-        <p class="containerHeading">This is a list of books</p>
+        <div class="heading">
+            <p class="containerHeading">This is a list of books</p>
+            <button id="btnAddBook">Add new Book</button>
+            <dialog id="dialog1">
+                <div class="dialogContainer">
+                    <div class="inputField">
+                        <label for="bookNameInput">Name of the book:</label>
+                        <input type="text" id="bookNameInput" name="bookNameInput">    
+                    </div>
+                    <div class="inputField">
+                        <label for="bookNameInput">Name of the author:</label>
+                        <input type="text" id="bookAuthorInput" name="bookNameInput">    
+                    </div>                   
+                    <div class="inputField">
+                        <label for="bookNameInput">How many pages?</label>
+                        <input type="number" id="bookPagesInput" name="bookNameInput">    
+                    </div>
+                    <div class="inputField">
+                        <label for="bookReadInput">Have you read the book</label>
+                        <input type="radio" id="yes" name="readCheck"> 
+                        <input type="radio" id="no" name="readCheck"> 
+                           
+                    </div>
+                    <button id="submitInputs">Submit</button>
+                </div>
+               
+            </dialog>
+        </div>
 
     </div>
 </body>
