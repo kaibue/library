@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    
+}
+
+#container {
+    display: flex;
+    width: 40rem;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerHeading{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.singleBook {
+    border: solid;
+    border-color: aqua;
+    padding: 10px;
+    width: 30rem;
+    margin: 5px;
+    border-radius: 10px;
+}
